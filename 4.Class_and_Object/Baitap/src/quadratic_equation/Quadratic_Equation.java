@@ -33,7 +33,7 @@ public class Quadratic_Equation {
         } else if (BT1.getDelta() == 0){
             System.out.print("The equation has double root: " + ((-b) / 2 * a));
         } else if(BT1.getDelta() > 0) {
-            System.out.print("The equation has two roót: " + BT1.getR1() + " and: " + BT1.getR2());
+            System.out.print("The equation have two roots: " + BT1.getR1() + " and: " + BT1.getR2());
         }
     }
 }

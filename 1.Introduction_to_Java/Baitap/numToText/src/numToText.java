@@ -1,66 +1,46 @@
 import java.util.Scanner;
-
 public class numToText<Static, unit, num> {
     private static String ones, tens, hundred;
     static void ones(int num) {
         switch (num) {
             case 1:
-                ones = "One";
-                break;
+                ones = "One"; break;
             case 2:
-                ones = "Two";
-                break;
+                ones = "Two"; break;
             case 3:
-                ones = "Three";
-                break;
+                ones = "Three"; break;
             case 4:
-                ones = "Four";
-                break;
+                ones = "Four"; break;
             case 5:
-                ones = "Five";
-                break;
+                ones = "Five"; break;
             case 6:
-                ones = "Six";
-                break;
+                ones = "Six"; break;
             case 7:
-                ones = "Seven";
-                break;
+                ones = "Seven"; break;
             case 8:
-                ones = "Eight";
-                break;
+                ones = "Eight"; break;
             case 9:
-                ones = "Nine";
-                break;
+                ones = "Nine"; break;
             case 10:
-                ones = "ten";
-                break;
+                ones = "ten"; break;
             case 11:
-                ones = "eleven";
-                break;
+                ones = "eleven"; break;
             case 12:
-                ones = "Twelve";
-                break;
+                ones = "Twelve"; break;
             case 13:
-                ones = "Thirteen";
-                break;
+                ones = "Thirteen"; break;
             case 14:
-                ones = "Fourteen";
-                break;
+                ones = "Fourteen"; break;
             case 15:
-                ones = "Fifteen";
-                break;
+                ones = "Fifteen"; break;
             case 16:
-                ones = "Sixteen";
-                break;
+                ones = "Sixteen"; break;
             case 17:
-                ones = "Seventeen";
-                break;
+                ones = "Seventeen"; break;
             case 18:
-                ones = "Eighteen";
-                break;
+                ones = "Eighteen"; break;
             case 19:
-                ones = "Nineteen";
-                break;
+                ones = "Nineteen"; break;
             default:
                 System.out.println("");
         }
@@ -69,29 +49,21 @@ public class numToText<Static, unit, num> {
     static void tens(int num) {
         switch (num) {
             case 20:
-                tens = "Twenty";
-                break;
+                tens = "Twenty"; break;
             case 30:
-                tens = "Thirty";
-                break;
+                tens = "Thirty"; break;
             case 40:
-                tens = "Fourty";
-                break;
+                tens = "Fourty"; break;
             case 50:
-                tens = "Fifty";
-                break;
+                tens = "Fifty"; break;
             case 60:
-                tens = "Sixtu";
-                break;
+                tens = "Sixty"; break;
             case 70:
-                tens = "Seventy";
-                break;
+                tens = "Seventy"; break;
             case 80:
-                tens = "Eighty";
-                break;
+                tens = "Eighty"; break;
             case 90:
-                tens = "Ninety";
-                break;
+                tens = "Ninety"; break;
             default:
                 tens = "";
         }
@@ -100,32 +72,23 @@ public class numToText<Static, unit, num> {
     static void hundred(int num) {
         switch (num) {
             case 100:
-                hundred = "One Hundred";
-                break;
+                hundred = "One Hundred"; break;
             case 200:
-                hundred = "Two Hundred";
-                break;
+                hundred = "Two Hundred"; break;
             case 300:
-                hundred = "Three Hundred";
-                break;
+                hundred = "Three Hundred"; break;
             case 400:
-                hundred = "Four Hundred";
-                break;
+                hundred = "Four Hundred"; break;
             case 500:
-                hundred = "Five Hundred";
-                break;
+                hundred = "Five Hundred"; break;
             case 600:
-                hundred = "Six Hundred";
-                break;
+                hundred = "Six Hundred"; break;
             case 700:
-                hundred = "Sven Hundred";
-                break;
+                hundred = "Sven Hundred"; break;
             case 800:
-                hundred = "Eight Hundred";
-                break;
+                hundred = "Eight Hundred"; break;
             case 900:
-                hundred = "Nine Hundred";
-                break;
+                hundred = "Nine Hundred"; break;
             default:
                 hundred = "";
         }

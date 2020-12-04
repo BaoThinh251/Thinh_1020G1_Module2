@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b5a3107-8e13-4304-86ab-08585f0a59db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Thuchanh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Class_and_Object/Baitap/src/stop_watch/Stop_Watch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Baitap/numToText/out/production/numToText/numToText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Baitap/numToText/out/production/numToText/numToText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Baitap/numToText/src/numToText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Baitap/numToText/src/numToText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.Java_Loop/Baitap/picture/out/production/picture/picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.Java_Loop/Baitap/picture/out/production/picture/picture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.Class_and_Object/Baitap/out/production/Baitap/quadratic_equation/Quadratic_Equation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.Class_and_Object/Baitap/out/production/Baitap/quadratic_equation/Quadratic_Equation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.Class_and_Object/Baitap/src/quadratic_equation/Quadratic_Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.Class_and_Object/Baitap/src/quadratic_equation/Quadratic_Equation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.Class_and_Object/Thuchanh/out/production/Thuchanh/class_rectangle/Class_rectangle$Ex14_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.Class_and_Object/Thuchanh/out/production/Thuchanh/class_rectangle/Class_rectangle$Ex14_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.Class_and_Object/Thuchanh/out/production/Thuchanh/class_rectangle/Class_rectangle$Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.Class_and_Object/Thuchanh/out/production/Thuchanh/class_rectangle/Class_rectangle$Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.Class_and_Object/Thuchanh/src/class_rectangle/Class_rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.Class_and_Object/Thuchanh/src/class_rectangle/Class_rectangle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1l8aOKeTOGyF5Stv6tDAOD5JpiF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b5a3107-8e13-4304-86ab-08585f0a59db" name="Default Changelist" comment="" />
+      <created>1606981138088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606981138088</updated>
+      <workItem from="1606981140507" duration="936000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
