@@ -20,6 +20,6 @@ public class Cylinder extends Circle {
 
     @Override
     public String toString() {
-        return "Radius is: " + this.radius + ", Color is: " + this.color  + ", Height is: " + this.height;
+        return "Radius is: " + super.getRadius() + ", Color is: " + super.getColor()  + ", Height is: " + this.height;
     }
 }
