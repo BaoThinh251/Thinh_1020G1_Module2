@@ -1,6 +1,6 @@
 package circle_cylinder;
 
-public class Test {
+public class Test1 {
     public static void main(String[] args) {
         Circle Cc = new Circle( 5, "Blue");
         System.out.println(Cc.toString());
