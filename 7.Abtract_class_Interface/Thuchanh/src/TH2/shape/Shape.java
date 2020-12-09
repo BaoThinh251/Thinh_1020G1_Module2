@@ -1,4 +1,4 @@
-package TH3.shape;
+package TH2.shape;
 
 public class Shape {
     private String color = "green";

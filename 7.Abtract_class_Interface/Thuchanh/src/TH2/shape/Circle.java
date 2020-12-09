@@ -1,6 +1,6 @@
-package TH3.shape;
+package TH2.shape;
 
-public class Circle extends Shape {
+public class Circle extends Shape{
     private double radius = 1.0;
 
     public Circle() {
