@@ -9,11 +9,11 @@ public class MainClient {
         char[] myStringArray = myString.toUpperCase().toCharArray();
 
         Map<Character, Integer> myNewMap = new TreeMap<>();
-        for (int i = 0; i < myStringArray.length; i++) {
-            if(myNewMap.containsKey(myStringArray[i])){
-                myNewMap.put(myStringArray[i], myNewMap.get(myStringArray[i])+1);
+        for (char c : myStringArray) {
+            if (myNewMap.containsKey(c)) {
+                myNewMap.put(c, myNewMap.get(c) + 1);
             } else {
-                myNewMap.put(myStringArray[i], 1);
+                myNewMap.put(c, 1);
             }
         }
         System.out.println(myNewMap);
