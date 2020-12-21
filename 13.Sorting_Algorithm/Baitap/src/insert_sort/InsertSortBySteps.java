@@ -3,7 +3,7 @@ package insert_sort;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Insert_Sort_by_steps {
+public class InsertSortBySteps {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] array = {1,5,3,2,9,7,6,8,10,4};
