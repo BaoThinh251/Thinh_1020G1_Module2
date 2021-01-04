@@ -7,8 +7,8 @@ public class House extends Services{
     public House() {
     }
 
-    public House(String id, String name, double useArea, double cost, int maxPerson, String roomGrade, int floor) {
-        super(id, name, useArea, cost, maxPerson);
+    public House(String id, String name, double useArea, String rentType, int maxPerson, String roomGrade, int floor, String otherServices) {
+        super(id, name, useArea, rentType, maxPerson, otherServices);
         this.roomGrade = roomGrade;
         this.floor = floor;
     }
@@ -30,8 +30,14 @@ public class House extends Services{
     }
 
     @Override
-    public void showInfo() {
-        System.out.println("Villa ID: " + getId() + "\nService name: " + getName() + "\nUsed Area: " + getUseArea() + " sqM" + "\nMax people: " + getMaxPerson()
-                + "\nRoom grade: " + getRoomGrade() + "\nFloor: " + getFloor() + "\nCost per day: " + getCost() + "$");
+    public String toString() {
+        return getId() + "," + getName() + "," + getUseArea() + "," + getMaxPerson()
+                + "," + getRoomGrade() + "," + getFloor() + "," + getRentType() + "," + getOtherServices();
+    }
+
+    @Override
+    public String showInfo() {
+        return "House ID: " + getId() + ", Service name: " + getName() + ", Used Area: " + getUseArea() + " sqM" + ", Max people: " + getMaxPerson()
+                + ", Room grade: " + getRoomGrade() + ", Floor: " + getFloor() + ", Rent type (year/month/day/hour): " + getRentType() + "$" + ", Addition services: " + getOtherServices();
     }
 }

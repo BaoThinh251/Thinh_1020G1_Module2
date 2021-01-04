@@ -5,13 +5,19 @@ public class Room extends Services{
     public Room() {
     }
 
-    public Room(String id, String name, double useArea, double cost, int maxPerson) {
-        super(id, name, useArea, cost, maxPerson);
+    public Room(String id, String name, double useArea, String rentType, int maxPerson, String otherServices) {
+        super(id, name, useArea, rentType, maxPerson, otherServices);
     }
 
     @Override
-    public void showInfo() {
-        System.out.println("Villa ID: " + getId() + "\nService name: " + getName() + "\nUsed Area: " + getUseArea() + " sqM"
-                + "\nMax people: " + getMaxPerson() + "\nCost per day: " + getCost() + "$");
+    public String  toString() {
+        return getId() + "," + getName() + "," + getUseArea()
+                + "," + getMaxPerson() + "," + getRentType() + "," + getOtherServices();
+    }
+
+    @Override
+    public String showInfo() {
+        return "Room ID: " + getId() + ", Service name: " + getName() + ", Used Area: " + getUseArea() + " sqM"
+                + ", Max people: " + getMaxPerson() + ", Rent type (year/month/day/hour): " + getRentType() + "$" + ", Addition services: " + getOtherServices();
     }
 }

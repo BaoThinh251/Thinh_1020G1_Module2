@@ -8,8 +8,8 @@ public class Villa extends Services{
     public Villa() {
     }
 
-    public Villa(String id, String name, double useArea, double cost, int maxPerson, String roomGrade, double poolArea, int floor) {
-        super(id, name, useArea, cost, maxPerson);
+    public Villa(String id, String name, double useArea, String rentType, int maxPerson, String roomGrade, double poolArea, int floor, String otherServices) {
+        super(id, name, useArea, rentType, maxPerson, otherServices);
         this.roomGrade = roomGrade;
         this.poolArea = poolArea;
         this.floor = floor;
@@ -40,8 +40,15 @@ public class Villa extends Services{
     }
 
     @Override
-    public void showInfo() {
-        System.out.println("Villa ID: " + getId() + "\nService name: " + getName() + "\nUsed Area: " + getUseArea() + " sqM" + "\nMax people: " + getMaxPerson()
-        + "\nRoom grade: " + getRoomGrade() + "\nPool area: " + getPoolArea() + " sqM" + "\nFloor: " + getFloor() + "\nCost per day: " + getCost() + "$");
+    public String showInfo() {
+        return "Villa ID: " + getId() + ", Service name: " + getName() + ", Used Area: " + getUseArea() + " sqM" + ", Max people: " + getMaxPerson()
+                + ", Room grade: " + getRoomGrade() + ", Pool area: " + getPoolArea()  + ", Floor: " + getFloor() + ", Rent type (year/month/day/hour): " + getRentType() + "$"
+                + ", Addition services: " + getOtherServices();
+    }
+
+    @Override
+    public String toString() {
+        return getId() + "," + getName() + "," + getUseArea() + "," + getMaxPerson() + "," + getRoomGrade()
+                + "," + getPoolArea() + "," + getFloor() + "," + getRentType() + "," + getOtherServices();
     }
 }
